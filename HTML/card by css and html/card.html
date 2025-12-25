@@ -1,0 +1,87 @@
+<!-- making card using html and css -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card development</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: antiquewhite;
+            height: 100vh;
+            width: 100%;
+        }
+        .container{
+            background-color: white;
+            border-radius: 15px;
+            height: 90vh;
+            width: 45vw;
+            border: 2px solid white;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            margin-left: 151px;
+            padding: 15px;
+        }
+        img{
+            border: 1px solid white;
+            border-radius: 15px;
+        }
+        .paragraph{
+            display: flex;
+            justify-content: center;
+
+        }
+        span{
+            text-align: center;
+            padding-top: 15px;
+            height: 40px;
+            width: 80px;
+            margin-top: 20px;
+            margin: 20px;
+            border: 2px solid grey;
+            border-radius: 30px;
+            background-color: lightgray;
+            cursor: pointer;
+        }
+        span:hover{
+            background-color:darkgray;
+        }
+        .read{
+            height: 40px;
+            width: 100px;
+            border: 2px solid grey;
+            text-align: center;
+            padding-top: 13px;
+            border-radius: 200px;
+            margin-left: 220px;
+            margin-top: 20px;
+            border: hidden;
+            background-color: #ade2e6;
+            color: rgb(26, 113, 236);
+        }
+        .read:hover{
+            background-color: #6ec8e0;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+ </head>
+ <body>
+    <div class="container">
+        <div class="img">
+            <img src="card.png" alt="Lake Image" height="200px" width="100%">
+        </div>
+        <div class="paragraph">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+            <h2>About Natural Lake</h2>
+            <P>
+                A natural lake is a large, inland body of still water, formed by geological processes like glacial activity, volcanic eruptions, or tectonic shifts, collecting water from rain, snowmelt, streams, and groundwater in a basin surrounded by land, creating vital freshwater reservoirs that support diverse ecosystems, provide water for human use, and act as significant parts of the global water cycle, from massive glacial lakes like the Great Lakes to smaller, high-altitude tarns.
+            </P>
+            <div class="read">Read More</div>
+    </div>
+ </body>
+ </html>
