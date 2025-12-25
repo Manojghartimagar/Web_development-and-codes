@@ -1,0 +1,61 @@
+ body {
+            margin-top: 58px;
+            margin-left: 89px;
+            width: 80vw;
+            border-radius: 10px;
+            box-shadow: -17px 4px 20px 0 rgba(0, 0, 0, 0.2);
+            height: 95vh;
+        }
+        .main {
+            display: flex;
+        }
+
+        .question {
+            padding-top: 20px;
+            width: 45%;
+            margin: 30px;
+        }
+
+        .forms {
+            padding-top: 20px;
+            width: 55%;
+            margin: 30px;
+        }
+
+        input {
+            margin-bottom: 15px;
+            width: 90%;
+            height: 30px;
+            border-radius: 5px;
+        }
+
+        .topic {
+            display: flex;
+            align-items: center;
+            height: 30px;
+            width: auto;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .topic {
+            border-right: hidden;
+            margin-right: 100px;
+        }
+
+        input::placeholder {
+            color: solid black;
+        }
+        #submit {
+            margin-left: 45%;
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            font-size: 16px;
+        }
+        #submit:active {
+            background-color: grey;
+            cursor: pointer;
+        }
