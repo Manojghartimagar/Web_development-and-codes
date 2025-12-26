@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .Horizontal2 ul {
+        gap: 25px;
+        padding-left: 20px;
+
+    }
+
+    .Horizontal2 li {
+        width: auto;
+        height: 20px;
+        border: 2px solid black;
+        background-color: lightgray;
+        border-radius: 7px;
+        border: hidden;
+        padding: 5px;
+    }
+
+    .Horizontalbars {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .verticalBars {
+        width: 10%;
+        height: 100vh;
+    }
+
+    body {
+        font-family: Roboto, Arial, sans-serif;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .first :nth-child(2) :nth-child(1) {
+        margin-left: 100px;
+
+    }
+
+    .first :nth-child(2) input {
+        width: 450px;
+        height: 30px;
+        border: 1px solid gray;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+        /* RIGHT side no radius */
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+
+    .first :nth-child(3) {
+        border: 1px solid gray;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+        /* RIGHT side no radius */
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        box-sizing: border-box;
+        padding: 5px;
+        width: 50px;
+        height: 33px;
+    }
+
+    .search:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .mic {
+        margin-right: 70px;
+        margin-left: 20px;
+        height: 40px;
+        width: 40px;
+        padding: 7px;
+        padding-left: 12px;
+        border: 1px solid white;
+        background-color: #f0f0f0;
+        box-sizing: border-box;
+        border-radius: 50%;
+    }
+
+    .mic:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .plus {
+        padding-top: 0px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        height: 35px;
+        width: 100px;
+        background-color: #f0f0f0;
+        box-sizing: border-box;
+        border-radius: 30px;
+        margin-right: 20px;
+        display: flex;
+    }
+
+    .plus img {
+        margin-top: 3px;
+        margin-right: 4px;
+    }
+
+    .plus p {
+        margin-top: 7px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .plus:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .bell {
+        width: 40px;
+        height: 40px;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .bell:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .name {
+        margin-top: 5px;
+        padding: 3px;
+        padding-bottom: 0px;
+        padding-top: 5px;
+        background-color: blueviolet;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+</style>
+
+<body>
+    <div class="HorizontalBars">
+        <div class="Horizontal1">
+            <ul class="first">
+                <li><img src="youtube-logo-icon.svg" alt="youtub logo" height="22"></li>
+                <li><input type="text" placeholder="search"></li>
+                <li class="search"><img src="search-2903.svg" alt="search icon" height="20"></li>
+                <li class="mic"><img src="mic-microphone-icon.svg" alt="mic icon" height="22"></li>
+                <li class="plus"><img src="plus-104.svg" alt="plus" height="25">
+                    <p>Create</p>
+                </li>
+                <li class="bell"><img src="bell.png" alt="bell icon" height="22"></li>
+                <li class="name">M</li>
+            </ul>
+        </div>
+        <div class="Horizontal2">
+            <ul>
+                <li>All</li>
+                <li>Code</li>
+                <li>Mixes</li>
+                <li>Village</li>
+                <li>Hiking</li>
+                <li>Nepal</li>
+                <li>Game shows</li>
+                <li>Camping</li>
+                <li>Tamil movies</li>
+                <li>Musics</li>
+                <li>Drama</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
